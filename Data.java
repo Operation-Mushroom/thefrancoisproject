@@ -1,13 +1,7 @@
 import java.util.Scanner;
-import java.awt.*;
-import javax.swing.*;
+import java.awt.Graphics;
+import java.applet.Applet;
 
-class Data {
+class Data extends Applet{
 	public Scanner userInput = new Scanner(System.in);
-	JFrame mainFrame = new JFrame("Francois");
-	mainFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
-	
-	public void createFrame(input, output) {
-		
-	}
 }
